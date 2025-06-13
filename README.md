@@ -1,49 +1,12 @@
-# asg5
-Campus Club Finder
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Campus Club Finder
+Currently, two official plugins are available:
 
-A web app that helps students discover and join student clubs at their university.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🚀 Technologies Used
-- Vite
-- React
-- React Router v7+
-- Tailwind CSS
-- localStorage
+## Expanding the ESLint configuration
 
-## 📁 Project Structure
-
-campus-club-finder\node_modules
-campus-club-finder\public
-campus-club-finder\src
-campus-club-finder\src\assets
-campus-club-finder\src\components
-campus-club-finder\src\components\navbar.jsx
-campus-club-finder\src\data
-campus-club-finder\src\data\clubs.js
-campus-club-finder\src\pages
-campus-club-finder\src\pages\about.jsx
-campus-club-finder\src\pages\clubDetail.jsx
-campus-club-finder\src\pages\clubList.jsx
-campus-club-finder\src\pages\home.jsx
-campus-club-finder\src\pages\notFound.jsx
-campus-club-finder\src\App.jsx
-campus-club-finder\src\index.css
-campus-club-finder\src\main.jsx
-campus-club-finder\.gitignore
-campus-club-finder\eslint.config.js
-campus-club-finder\index.html
-campus-club-finder\package-lock.json
-campus-club-finder\package.json
-campus-club-finder\README.md
-campus-club-finder\tailwind.config.js
-campus-club-finder\vite.config.js
-
- Pages
-Home : Welcome message + CTA to browse clubs
-Clubs List : Grid/List view, sorting, responsive design
-Club Detail : Full details, Join Club feature
-About : Explains the app and tech stack
-404 : Fallback for unknown routes
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
